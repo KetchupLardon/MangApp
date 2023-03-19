@@ -14,6 +14,9 @@ export class MangaDex {
     return response.json();
   }
 
+  console.log("iji");
+  
+
   public fetchMangaList = () => {
     return this.fetchData('manga?includes[]=cover_art');
   };
